@@ -1,0 +1,20 @@
+{
+    "description": "A simple redux",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:mfoonirlee/simple-redux.git"
+    },
+    "license": "MIT",
+    "scripts": {
+        "start": ". .shell.sh"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-env": "^1.5.2",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-react-app": "^3.0.0",
+        "redux": "^3.7.0"
+    }
+}
