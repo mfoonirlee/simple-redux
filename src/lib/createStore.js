@@ -1,4 +1,4 @@
-const ACTION_INIT_TYPE = "_ACTION_INIT";
+export const ACTION_INIT_TYPE = "_ACTION_INIT";
 
 export default function createStore(reducer, preloadedState, enhancer) {
     let currentReducer = reducer;
