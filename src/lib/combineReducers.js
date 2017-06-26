@@ -37,7 +37,7 @@ export default function combineReducers(reducers) {
         let reducer,
             _currentState,
             _nextState,
-            nextState,
+            nextState = {},
             hasChanged = false;
 
         keys.forEach(key => {
@@ -49,7 +49,7 @@ export default function combineReducers(reducers) {
                     "Action get an undefined as a result, If you need to hold no value, use 'null' instead."
                 );
             }
-            nextState = _nextState;
+            nextState[key] = _nextState;
             hasChanged = hasChanged || nextState !== _currentState;
         });
 
